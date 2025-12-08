@@ -1,22 +1,24 @@
 body {
-  margin: 2;
+  margin: 0;
   background: black;
   color: white;
   font-family: "inter", sans-serif;
   text-transform: lowercase;
+  
+  cursor: url("cursor.png"), auto;
 }
 
 /* name in top-left */
 .name-tag {
   position: fixed;
-  top: 15px;
-  left: 20px;
-  font-size: 14px;
+  top: 6px;     /* was 15px */
+  left: 8px;    /* was 20px */
+  font-size: 30px;   /* was 14px */
   letter-spacing: -0.01em;
   z-index: 10;
 }
 
-/* center image */
+/* center image for homepage. */
 .center-image {
   position: fixed;
   top: 50%;
@@ -25,22 +27,21 @@ body {
 }
 
 .center-image img {
-  max-width: 300px;
+  max-width: 500px;
 }
 
-/* bottom bio */
+/* bottom bio homepage. */
 .bio {
   position: fixed;
   bottom: 15px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 12px;
+  font-size: 20px;
   opacity: 0.8;
   text-align: center;
 }
 
-/* nav menu (top-right dropdown) */
-
+/* menu. */
 .nav {
   position: fixed;
   top: 15px;
