@@ -1,44 +1,48 @@
 <!doctype html>
 <html lang="en">
-<header>
-<meta charset="UTF-8">
-<title>mariobolton</title>
-<link href="styles.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js"></script>
-</header>
+<head>
+  <meta charset="utf-8">
+  <title>mariobolton</title>
+
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- styles -->
+  <link href="styles.css" rel="stylesheet">
+
+  <!-- p5js + p5 sound -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js"></script>
+
+  <!-- sketch -->
+  <script src="orbits.js" defer></script>
+</head>
+
 <body>
-<h1>
-Saludos!
-</h1>
-<p>
-  <h2>!sodulaS</h2>
-  <hr />
-  <div>
-  <blockquote> <b><i><u> "eres mi brodo, nver forget it..." </u></i></b></blockquote>
-</div>
-  <br>
-  <div>
-  <a href="https://linktr.ee/mariobolton"> my real website </a>
+
+  <!-- top-left name -->
+  <div class="name-tag">mario bolton</div>
+
+  <!-- dropdown nav -->
+  <nav class="nav">
+    <button class="nav-toggle">menu ▾</button>
+    <ul class="nav-menu">
+      <li><a href="about.html">about</a></li>
+      <li><a href="listen.html">listen</a></li>
+      <li><a href="watch.html">watch</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- center image -->
+  <div class="center-image">
+    <img src="oprah.gif" alt="photo">
   </div>
-   <br>
-  <div>
-  <img src="oprah.gif">
-</div>
-    <div>
-    <ul>
-		<li>ROJO40</li>
-		<li>MR.CON!</li>
-		<li>embi</li>
-</ul>
-</div>
-<br>
-<div>
-  <audio controls> <source src="rompemuslo.wav" type="audio/mpeg"></audio> <br>
-</div>
-<div>
-	    <script src="orbits.js"></script>
-	</div>
-</p>
+
+  <!-- bottom short bio -->
+  <div class="bio">
+    electronic producer + sound artist based in boston, ma. from santiago, chile.
+  </div>
+
 </body>
 </html>
