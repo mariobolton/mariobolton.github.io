@@ -1,7 +1,12 @@
 let mic, fft;
 
 function setup() {
-  createCanvas(710, 400);
+    const c = createCanvas(windowWidth, windowHeight);
+    c.position(0, 0);
+    c.style("position", "fixed");
+    c.style("z-index", "-1");
+    c.style("pointer-events", "none");  
+  
   noFill();
 
   mic = new p5.AudioIn();
